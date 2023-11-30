@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "nova";
+    src: url(fonts/NovaSquare-Regular.ttf);
+}
+
+@font-face {
+    font-family: "pacifico";
+    src: url(fonts/Pacifico-Regular.ttf);
+}
+
+* {
+    color: rgb(67, 67, 67);
+    font-family: nova;
+}
+
+.navbar {
+
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 5px 15px;
+    height: 70px;
+}
+
+.navbar-brand {
+    font-family: "pacifico";
+    margin-left: 60px;
+    }
+.mian1st{
+    margin: 100px auto;
+}
+
+
+.main1 {
+    
+    display: flex;
+    align-self: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+    
+}
+.main1> div > p{
+    text-align: justify;
+}
+
+.contact {
+    text-decoration: none;
+    color: #000;
+}
+
+.fler {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.fler li {
+
+    list-style: none;
+    display: flex;
+    margin-left: 10px;
+}
+.main2nd{
+    margin: 100px auto;
+}
+.centre{
+    /* display: flex; */
+    align-self: center;
+}
+.learn {
+  display: flex;
+justify-content: center;
+align-content: center;
+}   
+.learn img {
+    width: 50px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
