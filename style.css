@@ -64,6 +64,9 @@ position: fixed;
     /* display: flex; */
     align-self: center;
 }
+.centrelearn{
+margin: 100px auto;
+}
 .learn {
   display: flex;
 justify-content: center;
@@ -119,4 +122,29 @@ footer span{
     width: 50px;
     padding: 5px;
 
+}
+.main4th{
+    margin: 100px auto;
+}
+.cardmain{
+    
+    max-width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+   
+  
+}
+.card{
+    margin: 50px auto;
+    margin-left : 10px;
+    text-align: center;
+}
+.btn{
+    background-color: gray !important;
+    border: none !important;
+}
+.main5th{
+    margin: 100px auto;
 }
