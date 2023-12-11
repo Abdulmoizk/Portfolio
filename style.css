@@ -14,7 +14,7 @@
 }
 
 .navbar {
-position: fixed;
+    position: fixed;
     background-color: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.08) 0px 5px 15px;
     height: 70px;
@@ -23,21 +23,28 @@ position: fixed;
 .navbar-brand {
     font-family: "pacifico";
     margin-left: 60px;
-    }
-.mian1st{
+}
+
+.resume {
+    text-decoration: none;
+    color: #000 !important;
+}
+
+.mian1st {
     margin: 100px auto;
 }
 
 
 .main1 {
-    
+
     display: flex;
     align-self: center;
     margin-bottom: 10px;
     font-size: 25px;
-    
+
 }
-.main1> div > p{
+
+.main1>div>p {
     text-align: justify;
 }
 
@@ -57,47 +64,58 @@ position: fixed;
     display: flex;
     margin-left: 10px;
 }
-.main2nd{
+
+.main2nd {
     margin: 100px auto;
 }
-.centre{
+
+.centre {
     /* display: flex; */
     align-self: center;
 }
-.centrelearn{
-margin: 100px auto;
+
+.centrelearn {
+    margin: 100px auto;
 }
+
 .learn {
-  display: flex;
-justify-content: center;
-align-content: center;
-}   
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
 .learn img {
     width: 50px;
     margin-left: 10px;
     margin-top: 30px;
 }
-.main3rd{
+
+.main3rd {
     margin: 100px auto;
 }
-.row h1{
+
+.row h1 {
     padding: 25px;
 }
-.edu img{
+
+.edu img {
     margin-bottom: 20px;
     width: 100px;
-    height: 100px   ;
-    border:none;
-    border-radius:50%;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
     box-shadow: rgba(0, 0, 0, 0.50) 0px 5px 15px;
 }
-.edu img:hover{
+
+.edu img:hover {
     transform: scale(1.2);
 }
-.line{
+
+.line {
     color: blue;
 }
-.edu{
+
+.edu {
     display: flex;
     flex-direction: column;
     margin: 40px auto;
@@ -106,45 +124,52 @@ align-content: center;
 
 
 
-footer{
+footer {
     box-shadow: rgba(0, 0, 0, 0.50) 0px 5px 15px;
     padding: 30px;
-   
+
 }
-footer span{
+
+footer span {
     font-family: "pacifico";
 }
-    
-.footer{
+
+.footer {
     text-align: center;
 }
-.footer img{
+
+.footer img {
     width: 50px;
     padding: 5px;
 
 }
-.main4th{
+
+.main4th {
     margin: 100px auto;
 }
-.cardmain{
-    
+
+.cardmain {
+
     max-width: 1320px;
     margin: 0 auto;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-   
-  
+
+
 }
-.card{
+
+.card {
     margin: 50px auto;
-    margin-left : 10px;
+    margin-left: 10px;
     text-align: center;
 }
-.btn{
+
+.btn {
     background-color: gray !important;
     border: none !important;
 }
-.main5th{
+
+.main5th {
     margin: 100px auto;
 }
