@@ -1,175 +1,223 @@
 @font-face {
-    font-family: "nova";
-    src: url(fonts/NovaSquare-Regular.ttf);
+    font-family: "montserrat";
+    src: url(assets/font/montserrat/Montserrat-VariableFont_wght.ttf);
 }
-
 @font-face {
-    font-family: "pacifico";
-    src: url(fonts/Pacifico-Regular.ttf);
+    font-family: "dancing-script";
+    src: url(assets/font/dancing/DancingScript-VariableFont_wght.ttf);
 }
-
 * {
-    color: rgb(67, 67, 67);
-    font-family: nova;
+    color: #9199A0;
+    font-family: "montserrat";
 }
 
-.navbar {
-    position: fixed;
-    background-color: rgb(255, 255, 255);
-    box-shadow: rgba(0, 0, 0, 0.08) 0px 5px 15px;
-    height: 70px;
+.navbar{background-color: #fff;
 }
 
-.navbar-brand {
-    font-family: "pacifico";
-    margin-left: 60px;
+.navv{
+    display:flex;
+    justify-content: flex-end;
 }
 
-.resume {
+
+.mainpage {
+    /* height: 100vh; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.typewriter-text {
+    color: #000;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 0.15em solid #000;
+    /* Cursor blinking effect */
+    font-size: 1.5em;
+    display: inline-block;
+    /* Ensure inline alignment with the image */
+    animation: typing 3s steps(40) infinite;
+}
+
+/* Keyframe animation for typing */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start;
+
+
+}
+
+.links img {
+    width: 40px;
+    height: 40px;
+}
+
+.links img:hover {
+    padding: 2px;
+}
+
+.button-55 {
+    align-self: center;
+    background-color: #fff;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: #41403e;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Neucha, sans-serif;
+    font-size: 1rem;
+    line-height: 23px;
+    outline: none;
+    padding: .75rem;
     text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-55 a {
+    text-decoration: none;
+    color: #41403e;
+}
+
+.button-55:hover {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+}
+
+.button-55:focus {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+
+
+
+/* secondpage */
+
+
+.page2nd {
+
+    width: 100%;
+    /* height: 900px; */
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.dflex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-end;
+
+
+}
+
+.dflex img {
+    margin-bottom: 10px;
+
+}
+
+
+/* thirdpage */
+
+.main3rd h2,
+.main3rd h4,
+.main3rd h5,
+.main3rd p {
     color: #000 !important;
 }
 
-.mian1st {
-    margin: 100px auto;
-}
-
-
-.main1 {
-
-    display: flex;
-    align-self: center;
-    margin-bottom: 10px;
-    font-size: 25px;
-
-}
-
-.main1>div>p {
-    text-align: justify;
-}
-
-.contact {
-    text-decoration: none;
-    color: #000;
-}
-
-.fler {
-    display: flex;
-    justify-content: flex-start;
-}
-
-.fler li {
-
-    list-style: none;
-    display: flex;
-    margin-left: 10px;
-}
-
-.main2nd {
-    margin: 100px auto;
-}
-
-.centre {
-    /* display: flex; */
-    align-self: center;
-}
-
-.centrelearn {
-    margin: 100px auto;
-}
-
-.learn {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-.learn img {
-    width: 50px;
-    margin-left: 10px;
-    margin-top: 30px;
-}
-
-.main3rd {
-    margin: 100px auto;
-}
-
-.row h1 {
-    padding: 25px;
-}
-
-.edu img {
+.main3rd img {
     margin-bottom: 20px;
     width: 100px;
     height: 100px;
     border: none;
     border-radius: 50%;
-    box-shadow: rgba(0, 0, 0, 0.50) 0px 5px 15px;
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
 }
 
-.edu img:hover {
-    transform: scale(1.2);
+.main3rd img:hover {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
 }
 
-.line {
-    color: blue;
-}
-
-.edu {
-    display: flex;
-    flex-direction: column;
-    margin: 40px auto;
-}
-
-
-
-
-footer {
-    box-shadow: rgba(0, 0, 0, 0.50) 0px 5px 15px;
-    padding: 30px;
-
-}
-
-footer span {
-    font-family: "pacifico";
-}
-
-.footer {
-    text-align: center;
-}
-
-.footer img {
-    width: 50px;
-    padding: 5px;
-
-}
-
-.main4th {
-    margin: 100px auto;
-}
-
-.cardmain {
-
-    max-width: 1320px;
-    margin: 0 auto;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-
-
-}
-
-.card {
-    margin: 50px auto;
-    margin-left: 10px;
-    text-align: center;
-}
-
-.btn {
-    background-color: gray !important;
+/* fourthpage */
+.card{
+    width: 30%;
     border: none !important;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: transform 0.5s ease-in-out;
+} 
+.card:hover{
+    transform: scale(1.1);
 }
 
-.main5th {
-    margin: 100px auto;
+.dflexx{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-end;
 }
+
+/* ///last/// */
+
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+}
+
+.profile img{
+    /* width: 30%; */
+    border: 3px solid #41403e;
+    border-radius: 50%;
+}
+
+/* scrollbtn */
+
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #fff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #scrollToTopBtn:hover {
+    background-color: #9199A0;
+  }
