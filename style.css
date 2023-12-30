@@ -170,13 +170,31 @@
 }
 
 /* fourthpage */
+
 .card{
+    width: 30%;
+    border: none !important;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.jc-text{
+    color: #41403e;
+}
+
+.jc-text a{
+    text-decoration:double;
+    font-weight: bold;
+color: #000;
+}
+
+
+.dflexx> .card{
     width: 30%;
     border: none !important;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     transition: transform 0.5s ease-in-out;
 } 
-.card:hover{
+.dflexx> .card:hover{
     transform: scale(1.1);
 }
 
@@ -187,7 +205,6 @@
     justify-content: center;
     align-items: flex-end;
 }
-
 /* ///last/// */
 
 .contact{
@@ -202,6 +219,7 @@
     border: 3px solid #41403e;
     border-radius: 50%;
 }
+
 
 /* scrollbtn */
 
